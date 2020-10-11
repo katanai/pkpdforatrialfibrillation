@@ -10,8 +10,12 @@ library(nlme)
 library(deSolve)
 ??nlmeODE
 ##MIXED-EFFECTS MODELING USING DE. data(Theoph)
+
 head(Theoph)
-WarData<- read.csv("/Users/ladykat/Downloads/CBMI\ Training\ Materials/PharmGKB_KNN.csv") head(WarData)
+##make sure you change read.csv to your own FILE PATH
+##WarData<- read.csv("___") 
+##head(WarData)
+
 WarODE <- WarData WarODE$Dose[WarODE$INR!=0] <- 0 WarODE$Cmt <- rep(1, dim(WarODE)[1]) ####################################### #Pharmacokinetics
 #One-compartment Model ####################################### OneComp <- list(
 DiffEq =list(
