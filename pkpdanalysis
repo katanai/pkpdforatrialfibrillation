@@ -1,0 +1,19 @@
+Case Study :  Personalized anti-coagulation: optimizing warfarin management using genetics and simulated clinical trials (Ravvaz et al)
+resources (scientific paper, data): https://pubmed.ncbi.nlm.nih.gov/29237680/
+
+I. Introduction and problem description
+
+There are conflicting results with clinical trials testing pharmacometric-guided warfarin therapies for patients with atrial fibrillation.
+Patient safety is at stake when warfarin is not prescribed appropriately.
+
+Warfarin, an oral drug caters to the condition of atrial fibrillation, is prescribed in such a type of anticoagulant medication that 
+helps prevent clots fro forming in the blood. It relies heavily on the genetic markup and other biomarkers for an optimal drug dosing recommendation.
+Given tht the genetic markup of each individual is fairly unique, this proposed a unique challenge for the medical community to develop
+a standard prescription recommendation across diverse populations. 
+It is also time-consuming and perhaps difficult to implement, on a whole healthcare sphere that is, personalized one-to-one sequential diagnosing.
+This opens a unique opportunity for an exploration of whether precision medicine of "Subpopulatin" can balance the need for personalized prescription 
+on an individual level vs. standardization of gene-reliant drug prescription on a bigger spectrum. 
+
+II. Background studies
+
+
