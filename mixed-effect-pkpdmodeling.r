@@ -16,7 +16,9 @@ head(Theoph)
 ##WarData<- read.csv("___") 
 ##head(WarData)
 
-WarODE <- WarData WarODE$Dose[WarODE$INR!=0] <- 0 WarODE$Cmt <- rep(1, dim(WarODE)[1]) ####################################### #Pharmacokinetics
+WarODE <- WarData WarODE$Dose[WarODE$INR!=0] <- 0 WarODE$Cmt <- rep(1, dim(WarODE)[1]) 
+
+#Pharmacokinetics
 #One-compartment Model ####################################### OneComp <- list(
 DiffEq =list(
 dy1dt = ~ -ka*y1,
